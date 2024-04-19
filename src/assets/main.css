@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before{
+  border-radius: 0;
+  box-shadow: none;
+  text-decoration: none;
+  list-style-type: none;
+  color: #3C3C3C;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jura', sans-serif;
+  border: none;
+  background: none;
+}
+
+#app{
+  background-color: white;
+}
+
+.button{
+  background-color: #4D5C63;
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:disabled{
+  cursor: default;
+  opacity: 0.5;
+}
